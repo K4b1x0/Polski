@@ -1,0 +1,127 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: #f3f1f8;
+    color: #302d38;
+    margin: 0;
+    padding: 30px 15px;
+    line-height: 1.8;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #e3dcef;
+    border-left: 6px solid #8060b5;
+    border-radius: 12px;
+    padding: 25px 30px;
+    margin: 25px 0;
+    height: auto;
+    overflow: auto;
+
+    box-shadow: 0 4px 14px rgba(60, 40, 90, 0.07);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(60, 40, 90, 0.12);
+}
+
+h1 {
+    color: #6941a5;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.4;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #7652a8;
+    text-align: left;
+    font-size: 19px;
+    border-bottom: 2px solid #eee7f8;
+    padding-bottom: 6px;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+p {
+    text-align: justify;
+    margin: 12px 0;
+}
+
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    padding-left: 4px;
+    margin-bottom: 9px;
+}
+
+li::marker {
+    color: #8060b5;
+}
+
+b, strong {
+    color: #6941a5;
+}
+
+#Dionizyjskich {
+    color: #6941a5;
+    font-weight: bold;
+}
+
+#pyt1  { border-left-color: #8060b5; }
+#pyt2  { border-left-color: #5577b5; }
+#pyt3  { border-left-color: #ba8051; }
+#pyt4  { border-left-color: #4b8c88; }
+#pyt5  { border-left-color: #a35f8c; }
+#pyt6  { border-left-color: #668a55; }
+#pyt7  { border-left-color: #b28a42; }
+#pyt8  { border-left-color: #568ba8; }
+#pyt9  { border-left-color: #8c70b3; }
+#pyt10 { border-left-color: #4e9a82; }
+#pyt11 { border-left-color: #b5806b; }
+#pyt12 { border-left-color: #6bb5a9; }
+#pyt13 { border-left-color: #b56b8e; }
+#pyt14 { border-left-color: #6bb5b5; }
+#pyt15 { border-left-color: #b56b6b; }
+
+@media (max-width: 650px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section {
+        padding: 18px;
+        margin: 18px 0;
+    }
+
+    h1 {
+        font-size: 21px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    p {
+        text-align: left;
+    }
+}
